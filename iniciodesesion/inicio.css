@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(../img/batman.png);
+    background-image: url("images.jpeg");
     background-size: cover;
     color: rgb(41, 238, 178);
     display: flex;
