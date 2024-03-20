@@ -1,0 +1,72 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fpurina.com.pe%2Fsites%2Fdefault%2Ffiles%2F2022-10%2Fpurina-brand-que-saber-de-los-gatitos-bebes.jpg&tbnid=asoWamYr1wXMjM&vet=12ahUKEwiX2Y3IhP2EAxU478kDHX5jCjQQMygHegQIARB_..i&imgrefurl=https%3A%2F%2Fpurina.com.pe%2Fpurina%2Fgatos%2Fgatos-en-adopcion-que-saber-de-los-gatitos-bebes&docid=foE6qadIHoL84M&w=940&h=470&q=gatitos&ved=2ahUKEwiX2Y3IhP2EAxU478kDHX5jCjQQMygHegQIARB_);
+    background-size: cover;
+    color: rgb(41, 238, 178);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.userlogin {
+    background-color: #ffffff;
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px solid rgb(158, 234, 16);
+    margin-top: 10%;
+
+}
+
+.title{
+    font-size: 28px;
+    font-style: italic;
+    color: blue;
+
+}
+
+.passwordlogin {
+    background-color: rgba(255, 255, 255, 0.799);
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px solid rgb(156, 234,16);
+    margin-top: 10%;
+
+}
+
+.userid{
+    margin-right: 5px;
+    margin-left: 50px;
+    padding-left: 5px;
+    float: center;
+
+    height: 25px;
+    width: 300px;
+    border: solid 2px #09c222;
+    border-radius: 10px;
+    justify-items: center;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button{
+    border-radius: 15px;
+    width: 130px;
+    height: 35px;
+}
+
+.buttons img {
+    width: 10px;
+    height: 10px;
+}

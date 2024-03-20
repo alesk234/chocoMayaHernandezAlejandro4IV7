@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.fondo{
+    
+    background-image: linear-gradient(
+        rgba(5, 196, 164, 0.47),
+        rgba(126, 0, 228, 0.262)), url(https://static.vecteezy.com/system/resources/previews/002/172/637/non_2x/desert-landscape-with-sand-dunes-illustration-in-flat-style-vector.jpg);
+    border-end-end-radius: 70px;
+    border-end-start-radius: 70px;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    transition: 0.5s;
+    padding-bottom: 15rem;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(148, 74, 239)
+    
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 4%;
+    background-color:rgb(64, 255, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-right-radius: 50px;
+    border-start-start-radius: 50px;
+}
+
+.logos{
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 3px solid #f2f2f2;
+    background-image: url(https://www.pngkey.com/png/full/911-9119774_facebook-icon-logo-facebook-blanco-png.png);
+    
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+    transition: .6s;
+
+}
+
+.social:hover{
+    background-color: #121212;
+    filter: invert(1);
+    
+}
+
+.social:nth-of-type(2){
+    background-image: url(https://jrodp.files.wordpress.com/2014/04/logo-ipn-blanco.png);
+    image-resolution: 569 1300;
+}
+
+.social:nth-of-type(3){
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png);
+}
+    
+
+.menu {
+    display: flex;
+    height: 110vh;
+    align-items: center;
+    font-size: 35px;;
+    justify-content: center;
+}
+
+.titulo{
+    color: rgb(55, 81, 105);
+    text-decoration: none;
+    left: 0;
+    top: 0;
+    position: absolute;
+    padding-left: 7rem;
+    z-index: 1;
+    transition: .6s;
+    
+}
+
+.titulo:hover{
+    color: rgba(82, 255, 206, 0.699);
+}
+
+.enlaces {
+    color: rgb(94, 129, 160);
+    top: 0;
+    align-items: center;
+    right: 0;
+    position: absolute;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    justify-content: right;
+    gap: 3rem;
+    list-style: none;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-right: 7rem;
+}
+
+nav a {
+    
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: all ease 0.3s;
+
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    background-color: #130d0d00;
+    
+}
+
+.sub{
+    justify-items: center;
+    color: rgba(107, 78, 35, 0.741);
+    text-decoration: none;
+    position: relative;
+}
+
+.orden{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgg{
+    padding: 20px 20px;
+    border-radius: 15px;
+    background-color: rgba(243, 217, 104, 1);
+    width: 380px;
+    height: 320px;
+    margin:40px 50px;
+    
+}
+
+.content1{
+    position: relative;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.76);
+    width: 60%;
+    margin:40px 50px;
+    padding: 15px 15px;
+    border-radius: 15px;
+    background-color: rgb(255, 60, 60)
+}
+
+
+
+
+
+
